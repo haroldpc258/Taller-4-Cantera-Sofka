@@ -1,0 +1,17 @@
+Sí es posible tener varias clases con métodos main en un programa en Java.
+Sin embargo, solo una de ellas puede ser utilizada como Punto de Entrada Principal para la ejecución del programa.
+
+Para especificar cuál será el Punto de Entrada, se debe indicar la clase que contiene el método Main con el
+que se desea ejecutar cuando inicie la ejecución del programa. De este modo, el método Main de esta Clase
+será el punto de entrada del programa y se ejecutará automáticamente cuando se arranque el programa.
+
+La Clase que se desea usar como punto de entrada se puede ejecutar directamente desde el entorno de desarrollo
+que estemos utilizando. También, se puede especificar en la línea de comandos cuando se ejecuta el programa.
+Para esto se debe realizar la compilación y ejecución del programa. Para efectuar la compilación del programa,
+se emplea el comando "javac" seguido del nombre del archivo ".java" de la clase a usar como punto de entrada
+principal. Esto compilará el programa y generará un archivo con extensión ".class".
+
+Una vez que se ha compilado el programa, se puede ejecutar utilizando el comando "java"
+seguido del nombre de la clase que contiene el método main que se desea ejecutar.
+Sin embargo, este procedimiento se puede realizar mediante el uso de un script o archivo por lotes que automatice
+la compilación y ejecución del programa como se especifica en el archivo "runMainClass.bat"
